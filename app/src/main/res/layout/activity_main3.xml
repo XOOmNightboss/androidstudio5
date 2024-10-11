@@ -1,0 +1,66 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1AB96"
+    android:foregroundTint="#753333">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="138dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="478dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5"
+        app:srcCompat="@drawable/utka" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="402dp"
+        android:layout_height="493dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#231F1F"
+        android:text="Телега — это бесплатное и безопасное мобильное и настольное приложение для обмена сообщениями, которое предлагает множество функций для взаимодействия и общения с друзьями, коллегами и близкими.   #### Основные функции: - Мгновенные сообщения: Отправляйте текстовые сообщения, голосовые сообщения, фото и видео. - Групповые чаты: Создавайте группы до 200,000 участников, делитесь файлами и работайте над проектами совместно. - Каналы: Создавайте публичные или частные каналы для распространения информации большой аудитории. - Секретные чаты: Используйте шифрование от конца до конца для повышенной безопасности и конфиденциальности. - Стикеры и Emoji: Добавляйте индивидуальные стикеры и эмодзи в свои сообщения для большей выразительности. - Боты: Взаимодействуйте с ботами для автоматизации процессов, получения новостей, развлечений и многого другого.  #### Безопасность и конфиденциальность: Мы заботимся о вашей безопасности и конфиденциальности. Ваши сообщения шифруются и остаются конфиденциальными. У нас нет доступа к вашим данным, и мы не храним информацию о ваших разговорах.  #### Платформы: Telegram доступен на различных платформах, включая iOS, Android, Windows, macOS и через веб-браузер. Синхронизируйте свой контент на всех устройствах.  #### Поддержка: Если у вас возникли вопросы или вам нужна помощь, вы можете обратиться в службу поддержки Telegram через приложение или на нашем сайте"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="о приложении"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="87dp"
+        android:backgroundTint="#BC4646"
+        android:foregroundTint="#B80C0C"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="133dp"
+        android:text="не нашли то что искали?"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
